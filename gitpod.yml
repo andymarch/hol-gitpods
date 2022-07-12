@@ -1,0 +1,6 @@
+ports:
+  - port: 42224
+
+tasks:
+  - init: npm install
+    command: npm provision
